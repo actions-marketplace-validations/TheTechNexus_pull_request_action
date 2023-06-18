@@ -14,7 +14,7 @@ async function run() {
 
   const repo = core.getInput("repo", { required: true });
 
-  const pull_number = core.getInput("pr_number", { required: true });
+  const pull_number = core.getInput("pull_number", { required: true });
 
   const github_api_key = core.getInput("github_api_key", { required: true });
 
