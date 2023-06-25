@@ -1,5 +1,5 @@
-name: "Pull request remainder"
-description: "Forward Pull request remainder message on discord or telegram"
+name: "Pull Request Notification"
+description: "A GitHub Action that sends Telegram notifications for new or updated pull requests in a specified repository."
 inputs:
   owner:
     description: "The owner of the repository"
